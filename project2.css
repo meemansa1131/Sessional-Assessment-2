@@ -257,6 +257,11 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
